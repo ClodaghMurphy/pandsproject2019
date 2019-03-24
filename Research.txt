@@ -1,1 +1,55 @@
-22032019 Research
+24032019 Research
+
+
+INTRODUCTION
+According to wikipedia, Iris is a genus of 260–300 species of flowering plants with "showy" flowers.[1]
+
+It takes its name from the Greek word for a rainbow, 
+which is also the name for the Greek goddess of the rainbow, Iris.
+Three Iris varieties are used in the Iris flower data set outlined by Ronald Fisher in his 1936 paper "The 
+use of multiple measurements in taxonomic problems" as an example of linear discriminant analysis.  
+
+Linear discriminant analysis (LDA), normal discriminant analysis (NDA), or discriminant function analysis 
+is a generalization of Fisher's linear discriminant, a method used in statistics, pattern recognition and 
+machine learning to find
+linear combination of features that characterizes or separates two or more classes of objects or events.[2]
+
+
+CONTENTS OF THE IRIS DATASET
+The Data Set consists of information about 50 flowers from Iris setosa, Iris virginica and Iris versicolor
+(three species of Iris).
+Measurements of 
+1. sepal length in cm 
+2. sepal width in cm 
+3. petal length in cm 
+4. petal width in cm 
+were recorded along with the species.
+Therefore, the dataset consists of 150 rows and 4 columns.
+
+This is a sample line from the Irish data set in csv format:
+5.1,3.5,1.4,0.2,Iris-setosa
+It indicates a sepal length of 5.1cm, sepal width of 3.5cm, petal length of 1.4cm and petal width of 0.2cm
+These measurements belong to an Iris-setosa flower collected as part of the experiment in 1936.
+Ronald Fisher's 1936 paper proves that once the measurements listed above are available
+it is possible predict the variety of Irish with a high degree of accuracy.
+
+The Iris Data Set is considered to be the most versatile one available in
+pattern recognition literature. [3]
+
+
+
+Because of it's compact nature and high accuracy, the data set is an idea sample
+to use when learning about data analysis.
+
+
+
+
+
+[1]  https://en.wikipedia.org/wiki/Iris_(plant)
+[2] https://en.wikipedia.org/wiki/Linear_discriminant_analysis
+[3] https://www.analyticsvidhya.com/blog/2018/05/
+24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/
+NOT CITED BUT USED FOR RESEARCH PURPOSES
+Data School youtube video
+"Getting started in scikit-learn with the famous iris dataset"
+https://www.youtube.com/watch?v=hd1W4CyPX58
