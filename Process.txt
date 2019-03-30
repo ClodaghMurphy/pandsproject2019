@@ -1,3 +1,0 @@
-1. I read some online articles/watched youtube videos on the subject and wrote a summary.
-2. Note down references
-3. Download the Data Set and Data Set Description from  http://archive.ics.uci.edu/ml/datasets/Iris
