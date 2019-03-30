@@ -1,8 +1,0 @@
-1. I read some online articles/watched youtube videos on the subject and wrote a summary.
-2. I began a list of references used
-3. Download the Data Set and Data Set Description from  http://archive.ics.uci.edu/ml/datasets/Iris
-4. I'm a visual person so I also downloaded images of the three types of iris.
-5. I read up about pandas the open source python library that provides data analysis tools. 
-It runs on top of numpy - a foundational data structure for python.   
-6. Analysis 1: load a segment of hardcoded data into a dataframe
-7. Analysis 2: read text file into a dataframe

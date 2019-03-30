@@ -7,7 +7,9 @@ import numpy as np
 import pandas as pd
 
 print("1. load hardcoded data into a dataframe")
-#I hardcoded a sample as it was tedious and unnecessary to format all 150 lines
+#I hardcoded a sample of 10 lines as it was tedious and unnecessary to format all 150 lines
+#df is the globally accepted abbreviation for DataFrame
+#the lists are passed through the command
 df =pd.DataFrame(
 
     [[5.1,3.5,1.4,0.2,'Iris-setosa'],
