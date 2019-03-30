@@ -1,11 +1,7 @@
 #pandsproject2019
 
 #The README should contain: 
-##1. A summary of the data set 
-##2. Your investigations into it
-##3. Clearly document how to run the python code you used to investigate the data set
-##4. What that python code does
-##5. It should list all the references used in completing the project
+
 
 <ul>
     <li>1. A summary of the data set</li> 
@@ -20,7 +16,7 @@
 
 <ul>
 
- <li>3. How to run the python code used to investigate the data set</li> 
+ <li>3. **How to run the python code used to investigate the data set**</li> 
         
 On github.com choose the "Clone or download" button to copy the code onto your machine.<br>
 For further information on how github works video guides are available here https://www.youtube.com/githubguides<br>
@@ -29,7 +25,7 @@ If you don't have a preferred CLI, the IDLE graphical user interface will be aut
 
 
 
- <li>4. What the python code in this project does</li> 
+ <li>**4. What the python code in this project does**</li> 
         
 
 Pandas Python Code | Description
@@ -45,7 +41,7 @@ Analysis 8 | Print statistical summary of the data
 Analysis 9 | Sort the records by a particular column or columns
 Analysis 10 | Print slices of data
 Content cell 1 | Content cell 2
-Content column 1 | Content column 
+Content column 1 | Content c0lumn 
 
 
  <li>5. List of all the references used in completing the project</li> 
