@@ -1,6 +1,7 @@
-#30032019 Investigate the DataSet
+#30032019 Investigate the DataSet Clodagh Murphy
+#Joe James "Python: Pandas Tutorial | Intro to DataFrames"
 #https://www.youtube.com/watch?v=e60ItwlZTKM
-#2. read text file into a dataframe
+#3. Print first five and last three rows of dataframe
 #A dataframe is the primary pandas structure of arranging data
 #Import modules
 import numpy as np

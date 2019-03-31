@@ -1,18 +1,14 @@
-#30032019 Investigate the DataSet Clodagh Murphy
+#31032019 Investigate the DataSet Clodagh Murphy
 #Joe James "Python: Pandas Tutorial | Intro to DataFrames"
 #https://www.youtube.com/watch?v=e60ItwlZTKM
-#6. Print Columns
+#13. Write the dataframe to a csv or xls file 
 #Import modules
 import numpy as np
 import pandas as pd
 
-print("6. Print Columns")
+print("13. Write the dataframe to a csv or xls file ")
 filename= 'irisdataset.txt'
-#df is the globally accepted abbreviation for DataFrame
 df=pd.read_csv(filename)
 
-#returns list of column names
-
-print (df.columns)
-
-
+df.to_csv('irisdf.csv')
+df.to_excel('irisdf1.xls')

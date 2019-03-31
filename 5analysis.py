@@ -1,6 +1,7 @@
-#30032019 Investigate the DataSet
+#30032019 Investigate the DataSet Clodagh Murphy
+#Joe James "Python: Pandas Tutorial | Intro to DataFrames"
 #https://www.youtube.com/watch?v=e60ItwlZTKM
-
+#3. Print Index
 #Import modules
 import numpy as np
 import pandas as pd

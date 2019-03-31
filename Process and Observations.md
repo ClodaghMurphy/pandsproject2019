@@ -6,8 +6,8 @@
 5. I read about pandas - the open source python library that provides high level data analysis tools. 
     It runs on top of numPy - a foundational data structure for many python libraries.   
 6. I used python code to familiarise myself with pandas and how it can be used to investigate the iris dataset.  
-I learned that pandas is an efficient tool that displays the data in a meaningful way usually with just one command.
-The df.dtypes command returned the numerical data as being "float64" data type, this is how
+7.I learned that pandas is an efficient tool that displays/arranges the data in a meaningful way usually with just one command.
+8.The df.dtypes command returned the numerical data as being "float64" data type, this is how
 pandas refers to floating point numbers.  The species of flower was classified as an object.
 sepal length in cm    float64
 species                object

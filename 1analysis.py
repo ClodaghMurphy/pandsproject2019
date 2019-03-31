@@ -1,4 +1,5 @@
-#30032019 Investigate the DataSet
+#30032019 Investigate the DataSet Clodagh Murphy
+#Joe James "Python: Pandas Tutorial | Intro to DataFrames"
 #https://www.youtube.com/watch?v=e60ItwlZTKM
 #1. load hardcoded data into a pandas dataframe
 #A dataframe is the primary pandas structure of arranging data
@@ -6,7 +7,7 @@
 import numpy as np
 import pandas as pd
 
-print("1. load hardcoded data into a dataframe")
+print("1. Load hardcoded data into a dataframe")
 #I hardcoded a sample of 10 lines as it was tedious and unnecessary to format all 150 lines
 #df is the globally accepted abbreviation for DataFrame
 #the lists are passed through the command
