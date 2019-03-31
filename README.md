@@ -40,8 +40,10 @@ Analysis 7 | Print values contained in the table/dataframe
 Analysis 8 | Print statistical summary of the data
 Analysis 9 | Sort the records by a particular column or columns
 Analysis 10 | Print slices of data
-Content cell 1 | Content cell 2
-Content column 1 | Content c0lumn 
+Analysis 11 | Assignment of values
+Analysis 12 | Content c0lumn 
+Analysis 13 | Content cell 2
+Content column 14 | Content c0lumn 
 
 
  <li>5. List of all the references used in completing the project</li> 
@@ -67,3 +69,6 @@ https://www.youtube.com/watch?v=e60ItwlZTKM<br>
 Basic Analysis of the Iris Data set Using Python
 by Oluwasogo Oluwafemi Ogundowole<br>
 https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342<br>
+
+Definition - What does Scalar mean?<br>
+https://www.techopedia.com/definition/16441/scalar<br>
