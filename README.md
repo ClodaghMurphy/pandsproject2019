@@ -1,4 +1,8 @@
 #pandsproject2019
+Introduction<br>
+This repository contains pandsproject2019.<br>  
+Using Fisher's Iris data set, I will explain the basic principles of investigating a data set <br>
+and how Python can be used in the endeavour.<br>
 
 #The README should contain: 
 
@@ -6,13 +10,6 @@
 <ul>
     <li>1. A summary of the data set</li> 
     <li>2. Your investigations into it</li>
-    <li>3. Clearly document how to run the python code you used to investigate the data set
-    <li>4. What that python code does</li> 
-    <li>5. It should list all the references used in completing the project</li> 
-        <ul>
- 
-
-
 
 <ul>
 
@@ -28,7 +25,7 @@ If you don't have a preferred CLI, the IDLE graphical user interface will be aut
  <li>**4. What the python code in this project does**</li> 
         
 
-Pandas Python Code | Description
+Pandas Python Code File Name | Description
 ------------ | -------------
 Analysis 1 | Loads a segment of hardcoded data into a dataframe
 Analysis 2 | Reads a text file into a dataframe
@@ -40,19 +37,19 @@ Analysis 7 | Print values contained in the table/dataframe
 Analysis 8 | Print statistical summary of the data
 Analysis 9 | Sort the records by a particular column or columns
 Analysis 10 | Print slices of data
-Analysis 11 | Assignment of values
-Analysis 12 | Content c0lumn 
-Analysis 13 | Content cell 2
-Content column 14 | Content c0lumn 
+Analysis 11 | Assignment of values into cells and new columns
+Analysis 12 | Rename columns 
+Analysis 13 | Write the dataframe to a csv or xls file 
+Content column 14 | Content c0lumn 14
 
 
  <li>5. List of all the references used in completing the project</li> 
         
-[1]  https://en.wikipedia.org/wiki/Iris_(plant) <br>
-[2] https://en.wikipedia.org/wiki/Linear_discriminant_analysis<br>
-[3] https://www.analyticsvidhya.com/blog/2018/05/
+https://en.wikipedia.org/wiki/Iris_(plant) <br>
+https://en.wikipedia.org/wiki/Linear_discriminant_analysis<br>
+https://www.analyticsvidhya.com/blog/2018/05/
 24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/<br>
-NOT QUOTED BUT USED FOR RESEARCH PURPOSES<br>
+
 Data School youtube video
 "Getting started in scikit-learn with the famous iris dataset"<br>
 https://www.youtube.com/watch?v=hd1W4CyPX58<br>
@@ -63,7 +60,7 @@ http://www.twofrog.com/irissetosa.html<br>
 https://gardengoodsdirect.com/product/iris-versicolor/<br>
 https://www.fs.fed.us/wildflowers/beauty/iris/Blue_Flag/iris_virginica.shtml<br>
 
-Joe James "Python: Pandas Tutorial | Into to DataFrames"
+Joe James "Python: Pandas Tutorial | Intro to DataFrames"
 https://www.youtube.com/watch?v=e60ItwlZTKM<br>
 
 Basic Analysis of the Iris Data set Using Python
