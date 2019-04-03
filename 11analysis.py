@@ -7,8 +7,8 @@ import numpy as np
 import pandas as pd
 
 print("11. Assignment of Values")
-filename= 'irisdataset.txt'
-df=pd.read_csv(filename)
+dataset= 'irisdataset.txt'
+df=pd.read_csv(dataset)
 
 #Assign a value to a particular scalar variable
 #This command will change the existing value to the one specified in the command

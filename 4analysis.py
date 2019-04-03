@@ -7,9 +7,9 @@ import numpy as np
 import pandas as pd
 
 print("4. Print Datatypes contained in the Table")
-filename= 'irisdataset.txt'
+dataset= 'irisdataset.txt'
 #df is the globally accepted abbreviation for DataFrame
-df=pd.read_csv(filename)
+df=pd.read_csv(dataset)
 
 print (df.dtypes)
 #The df.dtypes command returned the numerical data as being "float64" data type, this is how

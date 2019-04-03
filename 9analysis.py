@@ -7,8 +7,8 @@ import numpy as np
 import pandas as pd
 
 print("9. Sort the records by descending value of petal length in cm")
-filename= 'irisdataset.txt'
-df=pd.read_csv(filename)
+dataset= 'irisdataset.txt'
+df=pd.read_csv(dataset)
 
 #Sort the records by value of 'petal length in cm'
 

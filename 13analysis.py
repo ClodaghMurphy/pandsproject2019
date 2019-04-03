@@ -7,8 +7,8 @@ import numpy as np
 import pandas as pd
 
 print("13. Write the dataframe to a csv or xls file ")
-filename= 'irisdataset.txt'
-df=pd.read_csv(filename)
+dataset= 'irisdataset.txt'
+df=pd.read_csv(dataset)
 
 df.to_csv('irisdf.csv')
 df.to_excel('irisdf1.xls')

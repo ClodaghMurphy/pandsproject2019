@@ -8,9 +8,9 @@ import numpy as np
 import pandas as pd
 
 print("2. Read text file into a dataframe")
-filename= 'irisdataset.txt'
+dataset= 'irisdataset.txt'
 #df is the globally accepted abbreviation for DataFrame
-df=pd.read_csv(filename)
+df=pd.read_csv(dataset)
 
 print (df)
 #Observations: i didn't have to give the dataset an index, the dataframe automatically did this

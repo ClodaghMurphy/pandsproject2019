@@ -7,9 +7,9 @@ import numpy as np
 import pandas as pd
 
 print("6. Print Columns")
-filename= 'irisdataset.txt'
+dataset= 'irisdataset.txt'
 #df is the globally accepted abbreviation for DataFrame
-df=pd.read_csv(filename)
+df=pd.read_csv(dataset)
 
 #returns list of column names
 

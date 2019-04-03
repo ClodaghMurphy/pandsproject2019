@@ -7,8 +7,8 @@ import numpy as np
 import pandas as pd
 
 print("10. Slices of Data")
-filename= 'irisdataset.txt'
-df=pd.read_csv(filename)
+dataset= 'irisdataset.txt'
+df=pd.read_csv(dataset)
 
 #Print only a "Slice" of the dataset, in this instance the column 'sepal length in cm'
 #square brackets operator is used

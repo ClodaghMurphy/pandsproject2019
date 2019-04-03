@@ -8,9 +8,9 @@ import numpy as np
 import pandas as pd
 
 print("3. Print first five and last three rows of dataframe")
-filename= 'irisdataset.txt'
+dataset= 'irisdataset.txt'
 #df is the globally accepted abbreviation for DataFrame
-df=pd.read_csv(filename)
+df=pd.read_csv(dataset)
 
 
 

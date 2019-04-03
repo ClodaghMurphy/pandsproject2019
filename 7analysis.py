@@ -7,8 +7,8 @@ import numpy as np
 import pandas as pd
 
 print("7. Print Values")
-filename= 'irisdataset.txt'
-df=pd.read_csv(filename)
+dataset= 'irisdataset.txt'
+df=pd.read_csv(dataset)
 
 #returns list of values (contents) of the dataframe
 print (df.values)

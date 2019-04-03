@@ -7,8 +7,8 @@ import numpy as np
 import pandas as pd
 
 print("8. Print a Statistical Summary of the Iris DataSet")
-filename= 'irisdataset.txt'
-df=pd.read_csv(filename)
+dataset= 'irisdataset.txt'
+df=pd.read_csv(dataset)
 
 #Print summary of statistics for numerical columns
 #Count, mean, standard deviation, minimum, maximum, 25/50/75 percentiles
@@ -16,3 +16,7 @@ df=pd.read_csv(filename)
 
 print (df.describe())
 
+#I redefined the data frame to just be the 'species' column which contains objects
+#and not numerical data, this gave me a different set of results - more meta!
+df=(df['species'])
+print (df.describe())
