@@ -1,4 +1,4 @@
-#pandsproject2019
+#pandsproject2019#
 Introduction<br>
 This repository contains pandsproject2019.<br>  
 Using Fisher's Iris data set, I will explain the basic principles of investigating a data set <br>
@@ -40,7 +40,11 @@ Analysis 10 | Print slices of data
 Analysis 11 | Assignment of values into cells and new columns
 Analysis 12 | Rename columns 
 Analysis 13 | Write the dataframe to a csv or xls file 
-Content column 14 | Content c0lumn 14
+Analysis 14 | 5 pandas commands to display descriptive statistics 
+Analysis 15 | Content 
+Analysis 16 | CContent
+Analysis 17 | Content 
+Analysis 18 | Content
 
 
  <li>5. List of all the references used in completing the project</li> 
