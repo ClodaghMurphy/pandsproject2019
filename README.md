@@ -44,7 +44,7 @@ Python Code File Name | Description
 15Analysis | Generate univariate boxplot 
 16Analysis | Generate histogram
 17Analysis | Generate scatter matrix 
-18Analysis | Content
+18Analysis | Generate multivariate boxplot
 19Analysis | Content 
 20Analysis | Content
 
