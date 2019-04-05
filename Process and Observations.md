@@ -20,9 +20,10 @@ In the figure that is rendered:
 - the second quartile (the median) is the line inside the box.
 - the circles that appear on the plot for "sepal width in cm" indicate data that is outside the median, unusual recordings compared to the majority of the data
 - a compact box indicates less variation in the values, as shown in the data relating to iris sepals.
+I have programs to display univariate and multivariate versions of boxplots
 11. Histograms represent one variable in a visualisation (different from a bar chart which relates two!). 
 It is a very simple command to create a histogram.
-
+12. 
 
 
 
