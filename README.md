@@ -25,26 +25,28 @@ If you don't have a preferred CLI, the IDLE graphical user interface will be aut
  <li>**4. What the python code in this project does**</li> 
         
 
-Pandas Python Code File Name | Description
+Python Code File Name | Description
 ------------ | -------------
-Analysis 1 | Loads a segment of hardcoded data into a dataframe
-Analysis 2 | Reads a text file into a dataframe
-Analysis 3 | Top and tail the list
-Analysis 4  | Print the data types in the data set
-Analysis 5 | Print index details
-Analysis 6 | Print column titles
-Analysis 7 | Print values contained in the table/dataframe
-Analysis 8 | Print statistical summary of the data
-Analysis 9 | Sort the records by a particular column or columns
-Analysis 10 | Print slices of data
-Analysis 11 | Assignment of values into cells and new columns
-Analysis 12 | Rename columns 
-Analysis 13 | Write the dataframe to a csv or xls file 
-Analysis 14 | 5 pandas commands to display descriptive statistics 
-Analysis 15 | Content 
-Analysis 16 | CContent
-Analysis 17 | Content 
-Analysis 18 | Content
+1Analysis  | Loads a segment of hardcoded data into a dataframe
+2Analysis | Reads a text file into a dataframe
+3Analysis | Top and tail the list
+4Analysis  | Print the data types in the data set
+5Analysis  | Print index details
+6Analysis  | Print column titles
+7Analysis  | Print values contained in the table/dataframe
+8Analysis  | Print statistical summary of the data
+9Analysis | Sort the records by a particular column or columns
+10Analysis | Print slices of data
+11Analysis | Assignment of values into cells and new columns
+12Analysis | Rename columns 
+13Analysis | Write the dataframe to a csv or xls file 
+14Analysis | 5 pandas commands to display descriptive statistics 
+15Analysis | Generate univariate boxplot 
+16Analysis | Generate histogram
+17Analysis | Generate scatter matrix 
+18Analysis | Content
+19Analysis | Content 
+20Analysis | Content
 
 
  <li>5. List of all the references used in completing the project</li> 
@@ -73,3 +75,13 @@ https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-29
 
 Definition - What does Scalar mean?<br>
 https://www.techopedia.com/definition/16441/scalar<br>
+Univariate Analysis: Definition, Examples<br>
+https://www.statisticshowto.datasciencecentral.com/univariate/<br>
+Box Plot<br>
+https://en.wikipedia.org/wiki/Box_plot<br>
+Understanding & Comparing Boxplots (Box and Whisker Plots)<br>
+https://www.youtube.com/watch?v=Hm6Mra5XJSs<br>
+Histogram<br>
+https://en.wikipedia.org/wiki/Histogram<br>
+What is a Scatter Plot?<br>
+https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/regression-analysis/scatter-plot-chart/#definition<br>
