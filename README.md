@@ -87,7 +87,7 @@ Python Code File Name | Description
 16Analysis | Generate histogram
 17Analysis | Generate scatter matrix 
 18Analysis | Generate multivariate boxplot
-19Analysis | Content 
+19Analysis | Print standard deviation for each column 
 20Analysis | Content
 
 
@@ -129,3 +129,7 @@ What is a Scatter Plot?<br>
 https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/regression-analysis/scatter-plot-chart/#definition<br>
 Understanding Descriptive Statistics <br>
 https://towardsdatascience.com/understanding-descriptive-statistics-c9c2b0641291 <br>
+Standard deviation<br>
+https://wiki.kidzsearch.com/wiki/Standard_deviation<br>
+Calculating the mean and std on excel file using python<br>
+https://stackoverflow.com/questions/33034243/calculating-the-mean-and-std-on-excel-file-using-python<br>
