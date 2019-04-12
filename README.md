@@ -1,38 +1,23 @@
 ﻿## pandsproject2019
-Introduction<br>
-This repository contains pandsproject2019.<br>  
-Using Fisher's Iris data set, I will explain the basic principles of investigating a data set <br>
-and how Python can be used in the endeavour.<br>
-
-#The README should contain: 
-
-
 
 ## 1. Introduction
 This repository contains pandsproject2019.<br>  
 Using Fisher's Iris data set, I will explain the basic principles of investigating a data set <br>
 and how Python can be used in the endeavour.<br>
 ## 2. A summary of the data set - what is it? why is it important?
-    <li>﻿##2. A summary of the data set - what is it and why is it important?</li> 
-    According to wikipedia, https://en.wikipedia.org/wiki/Iris_(plant)
-    >'Iris is a genus of 260–300 species of flowering plants with "showy" flowers.' 
->
-<br>
+
+
     
    
-    The Iris Data Set is important because
-    > it is considered to be one of the most versatile datasets available in pattern recognition literature. <br>
-    > Because of it's compact nature and high accuracy, it is an ideal sample to use when learning about data analysis.<br>
-    > Ronald Fisher's 1936 paper proves that once measurements are available it is possible predict the variety of Irish with a high    degree of accuracy.  This is a vital part of XXXXXX
+  
 
-THe flower takes its name from the Greek word for a rainbow, which is also the name for the Greek goddess of the rainbow, Iris.
+According to wikipedia, https://en.wikipedia.org/wiki/Iris_(plant)
+    >'Iris is a genus of 260–300 species of flowering plants with "showy" flowers.' 
+The flower takes its name from the Greek word for a rainbow, which is also the name for the Greek goddess of the rainbow, Iris.
 Three Iris varieties are used in the Iris flower data set outlined by Ronald Fisher in his 1936 paper "The 
 use of multiple measurements in taxonomic problems" as an example of linear discriminant analysis.  
+Discriminant analysis aims to classify the flower species from the four measurements provided in the dataset.
 
-Linear discriminant analysis (LDA), normal discriminant analysis (NDA), or discriminant function analysis 
-is a generalization of Fisher's linear discriminant, a method used in statistics, pattern recognition and 
-machine learning to find linear combination of features that characterizes or separates two or more classes of objects or events.<br>
-https://en.wikipedia.org/wiki/Linear_discriminant_analysis <br>
 
 
 CONTENTS OF THE IRIS DATASET
@@ -46,10 +31,15 @@ Measurements of
 were recorded along with the species.
 Therefore, the dataset consists of 150 rows and 4 columns.
 
-This is a sample line from the Irish data set in csv format:
-5.1,3.5,1.4,0.2,Iris-setosa
-It indicates a sepal length of 5.1cm, sepal width of 3.5cm, petal length of 1.4cm and petal width of 0.2cm
-These measurements belong to an Iris-setosa flower collected as part of the experiment in 1936.
+This is a sample line from the Irish data set in csv format:<br>
+*5.1,3.5,1.4,0.2,Iris-setosa*<br>
+It indicates a sepal length of 5.1cm, sepal width of 3.5cm, petal length of 1.4cm and petal width of 0.2cm<br>
+These measurements belong to an Iris-setosa flower collected as part of the experiment in 1936.<br>
+
+ The Iris Data Set is important because<br>
+   (a) it is considered to be one of the most versatile datasets available in pattern recognition literature. <br>
+   (b) it is an ideal sample to use when learning about data analysis due to it's compact nature (150 lines) and high accuracy, <br>
+   (c) Ronald Fisher's original 1936 paper proves that once measurements are available it is possible predict the variety of Iris with a high degree of accuracy- an important tenet of data analysis<br>
 
 ## 3. My investigations into the Iris Data Set
 
@@ -87,8 +77,23 @@ Python Code File Name | Description
 16Analysis | Generate histogram
 17Analysis | Generate scatter matrix 
 18Analysis | Generate multivariate boxplot
+19Analysis | Print standard deviation for each column
+20Analysis | Generate 2 scatter plots to compare sepals and petals
+21Analysis | Generate 2 scatter plots to compare sepals and petals with species identified 
+22Analysis | 
+
+
 19Analysis | Print standard deviation for each column 
-20Analysis | Content
+20Analysis | Generate 2 scatterplots sepal v petal
+21Analysis  | Generate 2 scatterplots sepal v petal with species identified
+22Analysis | Sort species specific data in a dataframe
+1Analysis  | TODO
+2Analysis | TODO
+21Analysis | 
+22Analysis | 
+23Analysis | Content
+24Analysis | Content
+25Analysis | Content
 
 
 ## 6. A list of all the references used in completing the project
@@ -133,3 +138,8 @@ Standard deviation<br>
 https://wiki.kidzsearch.com/wiki/Standard_deviation<br>
 Calculating the mean and std on excel file using python<br>
 https://stackoverflow.com/questions/33034243/calculating-the-mean-and-std-on-excel-file-using-python<br>
+Statistical Analysis of the Iris Flower Dataset <br>
+http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf<br>
+Python - IRIS Data visualization and explanation<br>
+https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation
+
