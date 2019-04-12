@@ -16,5 +16,5 @@ dataset = pandas.read_csv('irisdataset.txt')
 dataset.plot(kind='box', subplots=True, layout=(2,2), sharex=False, sharey=False)
 
 #Command to display the plot
-plt.title ('BoxPlot - data visualisation of the iris dataset')
+
 plt.show()

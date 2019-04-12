@@ -50,7 +50,7 @@ when exploring a dataset. Python in conjunction with Matplotlib can be used to a
 [2] https://en.wikipedia.org/wiki/Linear_discriminant_analysis
 [3] https://www.analyticsvidhya.com/blog/2018/05/
 24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/
-NOT QUOTED BUT USED FOR RESEARCH PURPOSES
+
 Data School youtube video
 "Getting started in scikit-learn with the famous iris dataset"
 https://www.youtube.com/watch?v=hd1W4CyPX58
