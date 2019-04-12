@@ -127,3 +127,5 @@ Histogram<br>
 https://en.wikipedia.org/wiki/Histogram<br>
 What is a Scatter Plot?<br>
 https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/regression-analysis/scatter-plot-chart/#definition<br>
+Understanding Descriptive Statistics <br>
+https://towardsdatascience.com/understanding-descriptive-statistics-c9c2b0641291 <br>
