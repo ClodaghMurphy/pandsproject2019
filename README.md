@@ -5,20 +5,13 @@ This repository contains pandsproject2019.<br>
 Using Fisher's Iris data set, I will explain the basic principles of investigating a data set <br>
 and how Python can be used in the endeavour.<br>
 ## 2. A summary of the data set - what is it? why is it important?
-
-
-    
-   
   
-
-According to wikipedia, https://en.wikipedia.org/wiki/Iris_(plant)
-    >'Iris is a genus of 260–300 species of flowering plants with "showy" flowers.' 
-The flower takes its name from the Greek word for a rainbow, which is also the name for the Greek goddess of the rainbow, Iris.
-Three Iris varieties are used in the Iris flower data set outlined by Ronald Fisher in his 1936 paper "The 
-use of multiple measurements in taxonomic problems" as an example of linear discriminant analysis.  
-Discriminant analysis aims to classify the flower species from the four measurements provided in the dataset.
-
-
+According to wikipedia, https://en.wikipedia.org/wiki/Iris_(plant)<br>
+    >'Iris is a genus of 260–300 species of flowering plants with "showy" flowers.' <br>
+The flower takes its name from the Greek word for a rainbow, which is also the name for the Greek goddess of the rainbow, Iris.<br>
+Three Iris varieties are used in the Iris flower data set outlined by Ronald Fisher in his 1936 paper "The <br>
+use of multiple measurements in taxonomic problems" as an example of linear discriminant analysis. <br> 
+Discriminant analysis means that the aim is to classify the flower species from the four measurements provided in the dataset.<br>
 
 CONTENTS OF THE IRIS DATASET
 The Data Set consists of information about 50 flowers from Iris setosa, Iris virginica and Iris versicolor
@@ -41,13 +34,45 @@ These measurements belong to an Iris-setosa flower collected as part of the expe
    (b) it is an ideal sample to use when learning about data analysis due to it's compact nature (150 lines) and high accuracy, <br>
    (c) Ronald Fisher's original 1936 paper proves that once measurements are available it is possible predict the variety of Iris with a high degree of accuracy- an important tenet of data analysis<br>
 
-## 3. My investigations into the Iris Data Set
+## 3. My investigations into the Iris Data Set - Process and Observations
+i. I read online articles/watched youtube videos on the subject and wrote a summary, see section 2 above.  
+ii. I started a list of references in the README to populate over the course of the project.  
+iii. I downloaded the Data Set (1999 version) and Data Set Description from  http://archive.ics.uci.edu/ml/datasets/Iris  
+iv. I downloaded and saved images of the three types of iris...however they are still very difficult to distinguish visually!  
+v. I read about pandas - the open source python library that provides high level data analysis tools.   
+    It runs on top of numPy - a foundational data structure for many python libraries.   
+vi. I used python code to familiarise myself with pandas and how it can be used to investigate the iris dataset.    
+vii.I learned that pandas is an efficient tool that displays/arranges the data in a meaningful way usually with just one command.  
+viii.The df.dtypes command returned the numerical data as being "float64" data type, this is how  
+pandas refers to floating point numbers.  The species of flower was classified as an object.  
+sepal length in cm    float64    
+species                object
+ix. A few more commands copied from a medium.com user, noted in the references section.  
+x. Box plots get the name from the box in the middle of the diagram and are a way to display numerical data via their quartiles. In the figure that is rendered:  
+- the minimum is represented by the lowermost line (a "whisker")  
+- the maximum value is the uppermost line (a "whisker")  
+- the lowermost end of each box is quartile 1, the uppermost represents quartile 3  
+- the second quartile (the median) is the line inside the box.  
+- the circles that appear on the plot for "sepal width in cm" indicate data that is outside the median, unusual recordings compared to the majority of the data  
+- a compact box indicates less variation in the values, as shown in the data relating to iris sepals.  
+I have programs to display univariate and multivariate versions of boxplots<br>
 
+xi. Histograms represent one variable in a visualisation (different from a bar chart which relates two!).   
+It is a very simple command to create a histogram.  
+xii. The analysis so far is considered to be exploring the data using "descriptive statistics", it's a starting point to help understand 
+the data by summarising what you have (as opposed to making predictions or inferential statistics). Important statistics to  
+set out are what is normal (central) and what is at the outermost ranges (variability, spread, deviation).  
+A box plot can provide a lot of these statistics in one image e.g. the outlier circles represent the deviations.  
+xiii. Ben Hamner  https://www.kaggle.com/benhamner/sepal-width-vs-length  
+demonstrates with a scatter graph that the setosa species is "linearly separable" from the other two in the data set.    
+In the graph all 50 setosa flowers can be seen lying distinctly separate, the other 100 flowers merge.  
+ivx. The standard deviation is a measurement statisticians use for the amount of variability (or spread)   
+among the numbers in a data set. As the term implies, a standard deviation is a standard (or typical) amount of   
+deviation (or distance) from the average (or mean, as statisticians like to call it).  
+xv. Having analysed the data set, now it's time to try and draw some conclusions.  
+Petals are the colourful part of a flower that surround the reproductive elements, the sepals (usually green but not in this instance!) protect the bud and support the petals after budding. Comparison of "like with like" should provide more meaningful results. Use scatterplots to compare petals and then sepals. The plot produced in 21analysis.py illustrates that in terms of petals, setosa species are the smallest, virginica the largest and versicolor roughly in the middle.  For sepals - the widest ones belong to the setosa species, the narrowest to versicolor with virginica in the middle although there is some cross-over between the last two species.  
 
-## 4. How to run the python code used to investigate the data set
-    
-
-        
+## 4. How to run the python code used to investigate the data set        
 On github.com choose the "Clone or download" button to copy the code onto your machine.<br>
 For further information on how github works video guides are available here https://www.youtube.com/githubguides<br>
 The latest version of Python can be downloaded from https://www.python.org/downloads/<br>
@@ -82,18 +107,6 @@ Python Code File Name | Description
 21Analysis | Generate 2 scatter plots to compare sepals and petals with species identified 
 22Analysis | 
 
-
-19Analysis | Print standard deviation for each column 
-20Analysis | Generate 2 scatterplots sepal v petal
-21Analysis  | Generate 2 scatterplots sepal v petal with species identified
-22Analysis | Sort species specific data in a dataframe
-1Analysis  | TODO
-2Analysis | TODO
-21Analysis | 
-22Analysis | 
-23Analysis | Content
-24Analysis | Content
-25Analysis | Content
 
 
 ## 6. A list of all the references used in completing the project
