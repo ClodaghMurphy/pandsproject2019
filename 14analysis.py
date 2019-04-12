@@ -22,3 +22,4 @@ print ("'sample(5)' displays 5 rows at random")
 print(dataset.sample(5)) 
 print("'isnull().sum() returns null information contained in the dataset")
 print(dataset.isnull().sum())
+

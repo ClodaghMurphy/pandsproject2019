@@ -23,8 +23,24 @@ In the figure that is rendered:
 I have programs to display univariate and multivariate versions of boxplots
 11. Histograms represent one variable in a visualisation (different from a bar chart which relates two!). 
 It is a very simple command to create a histogram.
-12. 
+12. The analysis so far is considered to be exploring the data using "descriptive statistics", it's a starting point to help understand
+the data by summarising what you have (as opposed to making predictions or inferential statistics). Important statistics to
+set out are what is normal (central) and what is at the outermost ranges (variability, spread, deviation).
+A box plot can provide a lot of these statistics in one image.
 
+.
+13. MY INVESTIGATIONS INTO THE DATA SET
+Ben Hamner  https://www.kaggle.com/benhamner/sepal-width-vs-length
+demonstrates with a scatter graph that the setosa species is "linearly separable" from the other two in the data set.  
+In the graph all 50 setosa flowers can be seen lying distinctly separate, the other 100 flowers merge.
+14 The standard deviation is a measurement statisticians use for the amount of variability (or spread) 
+among the numbers in a data set. As the term implies, a standard deviation is a standard (or typical) amount of 
+deviation (or distance) from the average (or mean, as statisticians like to call it).
+15 bar Graph VS Histogram
+16 outliers demonstrated in plot or histogram
+17 Having analysed the data set, now it's time to try and draw some conclusions.  Petals are the colourful part of a flower
+that surround the reproductive elements, the sepals (usually green but not in this instance!) protect the bud and support the petals
+after budding. Comparison of "like with like" should provide more meaningful results.
 
 
     Pandas Analysis | Description
