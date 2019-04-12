@@ -1,4 +1,4 @@
-#pandsproject2019#
+﻿## pandsproject2019
 Introduction<br>
 This repository contains pandsproject2019.<br>  
 Using Fisher's Iris data set, I will explain the basic principles of investigating a data set <br>
@@ -7,22 +7,25 @@ and how Python can be used in the endeavour.<br>
 #The README should contain: 
 
 
-<ul>
-    Introduction<br>
+
+## 1. Introduction
 This repository contains pandsproject2019.<br>  
 Using Fisher's Iris data set, I will explain the basic principles of investigating a data set <br>
 and how Python can be used in the endeavour.<br>
-    <li>2. A summary of the data set - what is it and why is it important?</li> 
-    According to wikipedia, Iris is a genus of 260–300 species of flowering plants with "showy" flowers.
-    https://en.wikipedia.org/wiki/Iris_(plant)
-    The Iris Data Set is considered to be the most versatile one available in
-pattern recognition literature. <br>
-https://www.analyticsvidhya.com/blog/2018/05/<br>
+## 2. A summary of the data set - what is it? why is it important?
+    <li>﻿##2. A summary of the data set - what is it and why is it important?</li> 
+    According to wikipedia, https://en.wikipedia.org/wiki/Iris_(plant)
+    >'Iris is a genus of 260–300 species of flowering plants with "showy" flowers.' 
+>
+<br>
+    
+   
+    The Iris Data Set is important because
+    > it is considered to be one of the most versatile datasets available in pattern recognition literature. <br>
+    > Because of it's compact nature and high accuracy, it is an ideal sample to use when learning about data analysis.<br>
+    > Ronald Fisher's 1936 paper proves that once measurements are available it is possible predict the variety of Irish with a high    degree of accuracy.  This is a vital part of XXXXXX
 
-Because of it's compact nature and high accuracy, the data set is an ideal sample
-to use when learning about data analysis.
-
-It takes its name from the Greek word for a rainbow, which is also the name for the Greek goddess of the rainbow, Iris.
+THe flower takes its name from the Greek word for a rainbow, which is also the name for the Greek goddess of the rainbow, Iris.
 Three Iris varieties are used in the Iris flower data set outlined by Ronald Fisher in his 1936 paper "The 
 use of multiple measurements in taxonomic problems" as an example of linear discriminant analysis.  
 
@@ -47,15 +50,13 @@ This is a sample line from the Irish data set in csv format:
 5.1,3.5,1.4,0.2,Iris-setosa
 It indicates a sepal length of 5.1cm, sepal width of 3.5cm, petal length of 1.4cm and petal width of 0.2cm
 These measurements belong to an Iris-setosa flower collected as part of the experiment in 1936.
-Ronald Fisher's 1936 paper proves that once the measurements listed above are available
-it is possible predict the variety of Irish with a high degree of accuracy.
+
+## 3. My investigations into the Iris Data Set
 
 
-    <li>3. Your investigations into it</li>
+## 4. How to run the python code used to investigate the data set
+    
 
-<ul>
-
- <li>4. **How to run the python code used to investigate the data set**</li> 
         
 On github.com choose the "Clone or download" button to copy the code onto your machine.<br>
 For further information on how github works video guides are available here https://www.youtube.com/githubguides<br>
@@ -63,8 +64,8 @@ The latest version of Python can be downloaded from https://www.python.org/downl
 If you don't have a preferred CLI, the IDLE graphical user interface will be automatically installed when you download from this site and can be used for running python programs.<br>
 
 
+## 5. What the Python Code does
 
-<li>5. What the Python Code does
 
 Python Code File Name | Description
 ------------ | -------------
@@ -90,7 +91,7 @@ Python Code File Name | Description
 20Analysis | Content
 
 
- <li>6. List of all the references used in completing the project</li> 
+## 6. A list of all the references used in completing the project
         
 https://en.wikipedia.org/wiki/Iris_(plant) <br>
 https://en.wikipedia.org/wiki/Linear_discriminant_analysis<br>
