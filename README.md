@@ -6,10 +6,10 @@ Using Fisher's Iris data set, I will explain the basic principles of investigati
 and how Python can be used in the endeavour.<br>
 ## 2. A summary of the data set - what is it? why is it important?
   
-According to wikipedia, https://en.wikipedia.org/wiki/Iris_(plant)<br:
+According to wikipedia, https://en.wikipedia.org/wiki/Iris_(plant):
     
-    >'Iris is a genus of 260–300 species of <br>
-    > flowering plants with "showy" flowers.' <br>
+    >'Iris is a genus of 260–300 species of
+    > flowering plants with "showy" flowers.'
     
     
 The flower takes its name from the Greek word for a rainbow, which is also the name for the Greek goddess of the rainbow, Iris.<br>
@@ -31,6 +31,7 @@ Therefore, the dataset consists of 150 rows and 4 columns.
 This is a sample line from the Irish data set in csv format:<br>
 *5.1,3.5,1.4,0.2,Iris-setosa*<br>
 It indicates a sepal length of 5.1cm, sepal width of 3.5cm, petal length of 1.4cm and petal width of 0.2cm<br>
+Petals are the colourful part of a flower that surround the reproductive elements, the sepals (usually green but not in this instance!) protect the bud and support the petals after budding.<br>
 These measurements belong to an Iris-setosa flower collected as part of the experiment in 1936.<br>
 
  The Iris Data Set is important because<br>
@@ -71,8 +72,7 @@ xi. The analysis so far is considered to be exploring the data using "descriptiv
 the data by summarising what you have (as opposed to making predictions or inferential statistics). Important statistics to  
 set out are what is normal (central) and what is at the outermost ranges (variability, spread, deviation).  
 A box plot can provide a lot of these statistics in one image e.g. the outlier circles represent the deviations.  
-xii. [Ben Hamner](https://www.kaggle.com/benhamner/sepal-width-vs-length)  
-demonstrates with a scatter graph that the setosa species is "linearly separable" from the other two in the data set.    
+xii. [Ben Hamner](https://www.kaggle.com/benhamner/sepal-width-vs-length)  demonstrates with a scatter graph that the setosa species is "linearly separable" from the other two in the data set.    
 In the graph all 50 setosa flowers can be seen lying distinctly separate, the other 100 flowers merge.  
 xii. The standard deviation is a measurement statisticians use for the amount of variability (or spread)   
 among the numbers in a data set. As the term implies, a standard deviation is a standard (or typical) amount of   
