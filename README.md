@@ -45,7 +45,7 @@ ii. I started a list of references in the README to populate over the course of 
 iii. I downloaded the Data Set (1999 version) and Data Set Description from  http://archive.ics.uci.edu/ml/datasets/Iris  
 iv. I downloaded and saved images of the three types of iris...however they are still very difficult to distinguish visually!  
 v. I read about pandas - the open source python library that provides high level data analysis tools.   
-    It runs on top of numPy - a foundational data structure for many python libraries.   
+    It runs on top of numPy - a foundational data structure for many python libraries including matplotlib (see below).   
 vi. I used python code to familiarise myself with pandas and how it can be used to investigate the iris dataset.    
 vii.I learned that pandas is an efficient tool that displays/arranges the data in a meaningful way usually with just one command.  
 viii.The df.dtypes command returned the numerical data as being "float64" data type, this is how  
@@ -57,7 +57,7 @@ sepal length in cm | float64
 species  | object
 
 
-ix. Box plots get the name from the box in the middle of the diagram and are a way to display numerical data via their quartiles. In the figure that is rendered:  
+ix. Matplotlib is a python library that can create 2D graphs and plots.  I have used it to create a box plot.  Box plots get the name from the box in the middle of the diagram and are a way to display numerical data via their quartiles. In the figure that is rendered:  
 - the minimum is represented by the lowermost line (a "whisker")  
 - the maximum value is the uppermost line (a "whisker")  
 - the lowermost end of each box is quartile 1, the uppermost represents quartile 3  
@@ -67,7 +67,7 @@ ix. Box plots get the name from the box in the middle of the diagram and are a w
 I have programs to display univariate and multivariate versions of boxplots<br>
 
 x. Histograms represent one variable in a visualisation (different from a bar chart which relates two!).   
-It is a very simple command to create a histogram.  
+Using matplotlib, it is a very simple command to create a histogram and this is the philosophy behind the library - "make easy things easy and hard things possible".  
 xi. The analysis so far is considered to be exploring the data using "descriptive statistics", it's a starting point to help understand 
 the data by summarising what you have (as opposed to making predictions or inferential statistics).<br>Important statistics to set out are what is normal (central) and what is at the outermost ranges (variability, spread, deviation).  
 A box plot can provide a lot of these statistics in one image e.g. the outlier circles represent the deviations.  
