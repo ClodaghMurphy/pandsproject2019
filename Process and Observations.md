@@ -29,7 +29,7 @@ set out are what is normal (central) and what is at the outermost ranges (variab
 A box plot can provide a lot of these statistics in one image.
 
 .
-13. MY INVESTIGATIONS INTO THE DATA SET
+13. 
 Ben Hamner  https://www.kaggle.com/benhamner/sepal-width-vs-length
 demonstrates with a scatter graph that the setosa species is "linearly separable" from the other two in the data set.  
 In the graph all 50 setosa flowers can be seen lying distinctly separate, the other 100 flowers merge.
@@ -40,8 +40,10 @@ deviation (or distance) from the average (or mean, as statisticians like to call
 16 outliers demonstrated in plot or histogram
 17 Having analysed the data set, now it's time to try and draw some conclusions.  Petals are the colourful part of a flower
 that surround the reproductive elements, the sepals (usually green but not in this instance!) protect the bud and support the petals
-after budding. Comparison of "like with like" should provide more meaningful results.
-
+after budding. Comparison of "like with like" should provide more meaningful results. Use scatterplots to compare petals and then sepals.
+The plot produced in 21analysis.py illustrates that in terms of petals, setosa species are the smallest, virginica the largest and versicolor roughly in the middle.
+For sepals - the widest ones belong to the setosa species, the narrowest to versicolor with virginica in the middle although there is some cross-over
+between the last two species.
 
     Pandas Analysis | Description
     ------------ | -------------
