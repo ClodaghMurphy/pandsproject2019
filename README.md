@@ -72,6 +72,9 @@ xi. The analysis so far is considered to be exploring the data using "descriptiv
 the data by summarising what you have (as opposed to making predictions or inferential statistics). Important statistics to  
 set out are what is normal (central) and what is at the outermost ranges (variability, spread, deviation).  
 A box plot can provide a lot of these statistics in one image e.g. the outlier circles represent the deviations.  
+
+(https://github.com/ClodaghMurphy/pandsproject2019/blob/master/Multivariate%20Boxplot.png "Multivariate Box Plot")
+
 xii. [Ben Hamner](https://www.kaggle.com/benhamner/sepal-width-vs-length)  demonstrates with a scatter graph that the setosa species is "linearly separable" from the other two in the data set.    
 In the graph all 50 setosa flowers can be seen lying distinctly separate, the other 100 flowers merge.  
 xii. The standard deviation is a measurement statisticians use for the amount of variability (or spread)   
@@ -79,7 +82,7 @@ among the numbers in a data set. As the term implies, a standard deviation is a 
 deviation (or distance) from the average (or mean, as statisticians like to call it).  
 ivx. Having first analysed the data set, now attempt to draw some conclusions using scatterplots.  
 Petals are the colourful part of a flower that surround the reproductive elements, the sepals (usually green but not in this instance!) protect the bud and support the petals after budding. Comparison of "like with like" should provide more meaningful results. Use scatterplots to compare petals and then sepals. The plot produced in 21analysis.py illustrates that in terms of petals, setosa species are the smallest, virginica the largest and versicolor roughly in the middle.  For sepals - the widest ones belong to the setosa species, the narrowest to versicolor with virginica in the middle although there is some cross-over between the last two species.  
-
+![alt text](https://github.com/ClodaghMurphy/pandsproject2019/blob/master/Scatterplot.png "Scatterplot Plot")
 ## 4. How to run the python code used to investigate the data set        
 On github.com choose the "Clone or download" button to copy the code onto your machine.<br>
 For further information on how github works video guides are available here https://www.youtube.com/githubguides<br>
