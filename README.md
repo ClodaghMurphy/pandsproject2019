@@ -6,8 +6,12 @@ Using Fisher's Iris data set, I will explain the basic principles of investigati
 and how Python can be used in the endeavour.<br>
 ## 2. A summary of the data set - what is it? why is it important?
   
-According to wikipedia, https://en.wikipedia.org/wiki/Iris_(plant)<br>
-    >'Iris is a genus of 260–300 species of flowering plants with "showy" flowers.' <br>
+According to wikipedia, https://en.wikipedia.org/wiki/Iris_(plant)<br:
+    
+    >'Iris is a genus of 260–300 species of <br>
+    > flowering plants with "showy" flowers.' <br>
+    
+    
 The flower takes its name from the Greek word for a rainbow, which is also the name for the Greek goddess of the rainbow, Iris.<br>
 Three Iris varieties are used in the Iris flower data set outlined by Ronald Fisher in his 1936 paper "The <br>
 use of multiple measurements in taxonomic problems" as an example of linear discriminant analysis. <br> 
@@ -45,10 +49,14 @@ vi. I used python code to familiarise myself with pandas and how it can be used 
 vii.I learned that pandas is an efficient tool that displays/arranges the data in a meaningful way usually with just one command.  
 viii.The df.dtypes command returned the numerical data as being "float64" data type, this is how  
 pandas refers to floating point numbers.  The species of flower was classified as an object.  
-sepal length in cm    float64    
-species                object
-ix. A few more commands copied from a medium.com user, noted in the references section.  
-x. Box plots get the name from the box in the middle of the diagram and are a way to display numerical data via their quartiles. In the figure that is rendered:  
+
+Item in dataset | Data Type
+------------ | -------------
+sepal length in cm | float64
+species  | object
+
+
+ix. Box plots get the name from the box in the middle of the diagram and are a way to display numerical data via their quartiles. In the figure that is rendered:  
 - the minimum is represented by the lowermost line (a "whisker")  
 - the maximum value is the uppermost line (a "whisker")  
 - the lowermost end of each box is quartile 1, the uppermost represents quartile 3  
@@ -57,19 +65,19 @@ x. Box plots get the name from the box in the middle of the diagram and are a wa
 - a compact box indicates less variation in the values, as shown in the data relating to iris sepals.  
 I have programs to display univariate and multivariate versions of boxplots<br>
 
-xi. Histograms represent one variable in a visualisation (different from a bar chart which relates two!).   
+x. Histograms represent one variable in a visualisation (different from a bar chart which relates two!).   
 It is a very simple command to create a histogram.  
-xii. The analysis so far is considered to be exploring the data using "descriptive statistics", it's a starting point to help understand 
+xi. The analysis so far is considered to be exploring the data using "descriptive statistics", it's a starting point to help understand 
 the data by summarising what you have (as opposed to making predictions or inferential statistics). Important statistics to  
 set out are what is normal (central) and what is at the outermost ranges (variability, spread, deviation).  
 A box plot can provide a lot of these statistics in one image e.g. the outlier circles represent the deviations.  
-xiii. Ben Hamner  https://www.kaggle.com/benhamner/sepal-width-vs-length  
+xii. [Ben Hamner](https://www.kaggle.com/benhamner/sepal-width-vs-length)  
 demonstrates with a scatter graph that the setosa species is "linearly separable" from the other two in the data set.    
 In the graph all 50 setosa flowers can be seen lying distinctly separate, the other 100 flowers merge.  
-ivx. The standard deviation is a measurement statisticians use for the amount of variability (or spread)   
+xii. The standard deviation is a measurement statisticians use for the amount of variability (or spread)   
 among the numbers in a data set. As the term implies, a standard deviation is a standard (or typical) amount of   
 deviation (or distance) from the average (or mean, as statisticians like to call it).  
-xv. Having analysed the data set, now it's time to try and draw some conclusions.  
+ivx. Having first analysed the data set, now attempt to draw some conclusions using scatterplots.  
 Petals are the colourful part of a flower that surround the reproductive elements, the sepals (usually green but not in this instance!) protect the bud and support the petals after budding. Comparison of "like with like" should provide more meaningful results. Use scatterplots to compare petals and then sepals. The plot produced in 21analysis.py illustrates that in terms of petals, setosa species are the smallest, virginica the largest and versicolor roughly in the middle.  For sepals - the widest ones belong to the setosa species, the narrowest to versicolor with virginica in the middle although there is some cross-over between the last two species.  
 
 ## 4. How to run the python code used to investigate the data set        
@@ -109,7 +117,7 @@ Python Code File Name | Description
 
 
 
-## 6. A list of all the references used in completing the project
+## 6. References used in completing the project
         
 https://en.wikipedia.org/wiki/Iris_(plant) <br>
 https://en.wikipedia.org/wiki/Linear_discriminant_analysis<br>
@@ -154,5 +162,7 @@ https://stackoverflow.com/questions/33034243/calculating-the-mean-and-std-on-exc
 Statistical Analysis of the Iris Flower Dataset <br>
 http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf<br>
 Python - IRIS Data visualization and explanation<br>
-https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation
+https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation<br>
+Iris Species: Classify iris plants into three species in this classic dataset<br>
+https://www.kaggle.com/benhamner/sepal-width-vs-length<br>
 
