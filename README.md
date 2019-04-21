@@ -73,7 +73,7 @@ the data by summarising what you have (as opposed to making predictions or infer
 set out are what is normal (central) and what is at the outermost ranges (variability, spread, deviation).  
 A box plot can provide a lot of these statistics in one image e.g. the outlier circles represent the deviations.  
 
-(https://github.com/ClodaghMurphy/pandsproject2019/blob/master/Multivariate%20Boxplot.png "Multivariate Box Plot")
+![alt text](https://github.com/ClodaghMurphy/pandsproject2019/blob/master/Multivariate%20Boxplot.png "Multivariate Box Plot")
 
 xii. [Ben Hamner](https://www.kaggle.com/benhamner/sepal-width-vs-length)  demonstrates with a scatter graph that the setosa species is "linearly separable" from the other two in the data set.    
 In the graph all 50 setosa flowers can be seen lying distinctly separate, the other 100 flowers merge.  
