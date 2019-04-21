@@ -17,7 +17,7 @@ Three Iris varieties are used in the Iris flower data set outlined by Ronald Fis
 use of multiple measurements in taxonomic problems" as an example of linear discriminant analysis. <br> 
 Discriminant analysis means that the aim is to classify the flower species from the four measurements provided in the dataset.<br>
 
-CONTENTS OF THE IRIS DATASET
+CONTENTS OF THE IRIS DATASET<br>
 The Data Set consists of information about 50 flowers from Iris setosa, Iris virginica and Iris versicolor
 (three species of Iris).
 Measurements of 
@@ -25,7 +25,7 @@ Measurements of
 2. sepal width in cm 
 3. petal length in cm 
 4. petal width in cm 
-were recorded along with the species.
+were recorded along with the species.<br>
 Therefore, the dataset consists of 150 rows and 4 columns.
 
 This is a sample line from the Irish data set in csv format:<br>
