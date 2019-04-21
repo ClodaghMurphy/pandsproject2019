@@ -69,8 +69,7 @@ I have programs to display univariate and multivariate versions of boxplots<br>
 x. Histograms represent one variable in a visualisation (different from a bar chart which relates two!).   
 It is a very simple command to create a histogram.  
 xi. The analysis so far is considered to be exploring the data using "descriptive statistics", it's a starting point to help understand 
-the data by summarising what you have (as opposed to making predictions or inferential statistics). Important statistics to  
-set out are what is normal (central) and what is at the outermost ranges (variability, spread, deviation).  
+the data by summarising what you have (as opposed to making predictions or inferential statistics).<br>Important statistics to set out are what is normal (central) and what is at the outermost ranges (variability, spread, deviation).  
 A box plot can provide a lot of these statistics in one image e.g. the outlier circles represent the deviations.  
 
 ![alt text](https://github.com/ClodaghMurphy/pandsproject2019/blob/master/Multivariate%20Boxplot.png "Multivariate Box Plot")
