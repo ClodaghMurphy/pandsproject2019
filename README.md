@@ -89,9 +89,10 @@ xv. Having first analysed the data set, I attempt to draw some conclusions by pl
 Comparison of "like with like" (i.e. petals with petals) should provide more meaningful results. I used scatterplots to compare petals and then sepals. The plot produced in 21analysis.py illustrates that in terms of petals, setosa species are the smallest, virginica the largest and versicolor roughly in the middle.  For sepals - the widest ones belong to the setosa species, the narrowest to versicolor with virginica in the middle although there is some cross-over between the last two species.  
 ![alt text](https://github.com/ClodaghMurphy/pandsproject2019/blob/master/Scatterplot.png "Scatterplot Plot")
 
-xvi A very brief look at machine learning and scikit-Learn. <br>Machine learning is the technique of using computers to extract knowledge and gain insight into data.  I consider that the iris dataset is a great starting point because an absolute beginner can start to see patterns in the data simply by using scatterplots and boxplots, thereby helping to understand the concept and how it might work when the machine can see patterns a human cannot.  
+xvi A very brief look at machine learning and scikit-Learn. <br>Machine learning is the technique of using computers to extract knowledge and gain insight into data.  Supervised learning in machine learning attempts to build structures that apply to new data and predict answers, therefore a human may not know what the correct answer is.  I consider that the iris dataset is a great starting point because an absolute beginner can start to see patterns in the data simply by using scatterplots and boxplots (point xv. above), thereby helping to understand the concept and how it might work when the machine can see patterns a human cannot.  
+
 Scikit-Learn is a python library that is used for machine learning and statistical modelling.  
-I learned about some of the terms used in relation to scikit-learn and machine learning e.g. features and datasets.
+I learned about some of the terminology used in relation to scikit-learn and machine learning e.g. features and targets.
 
 
 
@@ -139,9 +140,11 @@ https://en.wikipedia.org/wiki/Linear_discriminant_analysis<br>
 https://www.analyticsvidhya.com/blog/2018/05/
 24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/<br>
 
-Data School youtube video
-"Getting started in scikit-learn with the famous iris dataset"<br>
+Data School youtube videos
+Getting started in scikit-learn with the famous iris dataset<br>
 https://www.youtube.com/watch?v=hd1W4CyPX58<br>
+Training a machine learning model with scikit-learn<br>
+https://www.youtube.com/watch?v=RlQuVL6-qe8<br>
 https://towardsdatascience.com/the-5-basic-statistics-concepts-data-scientists-need-to-know-2c96740377ae<br>
 
 http://archive.ics.uci.edu/ml/datasets/Iris<br>
