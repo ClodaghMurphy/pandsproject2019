@@ -89,10 +89,16 @@ xv. Having first analysed the data set, I attempt to draw some conclusions by pl
 Comparison of "like with like" (i.e. petals with petals) should provide more meaningful results. I used scatterplots to compare petals and then sepals. The plot produced in 21analysis.py illustrates that in terms of petals, setosa species are the smallest, virginica the largest and versicolor roughly in the middle.  For sepals - the widest ones belong to the setosa species, the narrowest to versicolor with virginica in the middle although there is some cross-over between the last two species.  
 ![alt text](https://github.com/ClodaghMurphy/pandsproject2019/blob/master/Scatterplot.png "Scatterplot Plot")
 
-xvi A very brief look at machine learning and scikit-Learn. <br>Machine learning is the technique of using computers to extract knowledge and gain insight into data.  Supervised learning in machine learning attempts to build structures that apply to new data and predict answers, therefore a human may not know what the correct answer is.  I consider that the iris dataset is a great starting point because an absolute beginner can start to see patterns in the data simply by using scatterplots and boxplots (point xv. above), thereby helping to understand the concept and how it might work when the machine can see patterns a human cannot.  
+xvi A very brief look at machine learning and scikit-Learn. <br>Machine learning is the technique of using computers to extract knowledge and gain insight into data.  Supervised learning in machine learning attempts to build structures that apply to new data and predict answers, therefore a human may not know what the correct answer is.  I consider that the iris dataset is a great starting point because an absolute beginner can start to see patterns in the data simply by using scatterplots and boxplots (point xv. above), thereby helping to understand the ideas and how machine learning might work when the machine can see patterns a human cannot.  
 
-Scikit-Learn is a python library that is used for machine learning and statistical modelling.  
+- Scikit-Learn is a python library that is used for machine learning and statistical modelling.  
 I learned about some of the terminology used in relation to scikit-learn and machine learning e.g. features and targets.
+The iris dataset is so popular that it is built into scikit-learn.  I found commands to print data, feature names, target and target names. I found the concept to be a very steep learning curve from the analysis done up to now.
+- k-NN refers to the nearest neighbour algorithm, where observations of data are used to predict a response by learning the relationship
+between the features and targets. The value of k parameter is input by the user, 1 means you want the closest prediction while k=15 indicates results from 1-15 "nearest neighbours" are required.
+To choose 1 may give an inaccurate answer depending on the array, whereas a result of 15 predictions may need further analysis, it all depends on the user's requirements. It's a straighforward algorithm and a good one to use for a small dataset.
+- Analysis23 code copied more or less verbatim from [Msanjayds on github](https://github.com/Msanjayds/Scikit-learn/blob/master/KNN%20on%20Iris%20Datset.ipynb) with explanatory comments by me, illustrates how to predict with the KNN algorithm, then plot the relationship between K and testing accuracy scores. Metrics, train_test_split modules are used.
+
 
 
 
@@ -129,8 +135,9 @@ Python Code File Name | Description
 19Analysis | Print standard deviation for each column
 20Analysis | Generate 2 scatter plots to compare sepals and petals
 21Analysis | Generate 2 scatter plots to compare sepals and petals with species identified 
-22Analysis | 
-
+22Analysis | Print a list of data pertaining to each species in descending order 
+23Analysis | Print data using scikit-learn library
+24Analysis | Predict with the KNN algorithm, then plot the relationship
 
 
 ## 6. References used in completing the project
@@ -185,4 +192,7 @@ Iris Species: Classify iris plants into three species in this classic dataset<br
 https://www.kaggle.com/benhamner/sepal-width-vs-length<br>
 Supervised learning: predicting an output variable from high-dimensional observations<br>
 https://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html<br>
-
+KNN (using scikit-learn) on Iris dataset <br>
+https://github.com/Msanjayds/Scikit-learn/blob/master/KNN%20on%20Iris%20Datset.ipynb<br>
+How to split your dataset to train and test datasets using SciKit Learn<br>
+https://medium.com/@contactsunny/how-to-split-your-dataset-to-train-and-test-datasets-using-scikit-learn-e7cf6eb5e0d<br>
