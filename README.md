@@ -91,6 +91,7 @@ Comparison of "like with like" (i.e. petals with petals) should provide more mea
 
 xvi A very brief look at machine learning and scikit-Learn. <br>Machine learning is the technique of using computers to extract knowledge and gain insight into data.  I consider that the iris dataset is a great starting point because an absolute beginner can start to see patterns in the data simply by using scatterplots and boxplots, thereby helping to understand the concept and how it might work when the machine can see patterns a human cannot.  
 Scikit-Learn is a python library that is used for machine learning and statistical modelling.  
+I learned about some of the terms used in relation to scikit-learn and machine learning e.g. features and datasets.
 
 
 
@@ -179,4 +180,6 @@ Python - IRIS Data visualization and explanation<br>
 https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation<br>
 Iris Species: Classify iris plants into three species in this classic dataset<br>
 https://www.kaggle.com/benhamner/sepal-width-vs-length<br>
+Supervised learning: predicting an output variable from high-dimensional observations<br>
+https://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html<br>
 
