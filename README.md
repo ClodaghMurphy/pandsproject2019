@@ -50,7 +50,7 @@ v.   During lectures, I had been introduced to numpy, pandas and matplotlib.
 I read more about pandas - the open source python library that provides high level data analysis tools.   
 It runs on top of numPy - a foundational data structure for many python libraries including matplotlib (see further information below).<br> 
 vi. I used python code to familiarise myself with pandas and how it can be used to investigate the iris dataset.  
-I used [Joe James youtube tutorial](https://www.youtube.com/watch?v=e60ItwlZTKM) as a key source of information.  He includes a print command at the start of every script which helpfully outputs what that script does, I used this technique where possible on all my scripts in this project.<br>
+I used [Joe James youtube tutorial](https://www.youtube.com/watch?v=e60ItwlZTKM) as a key source of information.  He includes a print command at the start of every script which helpfully outputs what that script does, I used this convention in addition to comments where possible on all my scripts in this project.<br>
 vii.I learned that pandas is an efficient tool that displays/arranges the data in a meaningful way usually with just one command. 
 The "dataframe" is the primary pandas structure of arranging data - something like a table in excel. The scripts detailed in the table below returned information such as information about the index, count, mean, standard deviation, minimum, maximum, 25/50/75 percentiles. 
 pandas commands can be used to change the titles of variables and assign new fields.
