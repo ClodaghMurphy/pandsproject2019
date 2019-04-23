@@ -1,5 +1,5 @@
 #30032019 Investigate the DataSet Clodagh Murphy
-#Joe James "Python: Pandas Tutorial | Intro to DataFrames"
+#Code adapted from Joe James "Python: Pandas Tutorial | Intro to DataFrames"
 #https://www.youtube.com/watch?v=e60ItwlZTKM
 #2. Read text file into a dataframe
 #A dataframe is the primary pandas structure of arranging data
@@ -8,6 +8,7 @@ import numpy as np
 import pandas as pd
 
 print("2. Read text file into a dataframe")
+#import the dataset text file which is saved locally into pandas, rename it as dataset
 dataset= 'irisdataset.txt'
 #df is the globally accepted abbreviation for DataFrame
 df=pd.read_csv(dataset)

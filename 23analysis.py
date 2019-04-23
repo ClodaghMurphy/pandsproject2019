@@ -1,5 +1,5 @@
 #22042019 Investigate the DataSet using sci-kit learn
-#code verbatim from https://www.youtube.com/watch?v=hd1W4CyPX58
+#code verbatim from Data School tutorial at https://www.youtube.com/watch?v=hd1W4CyPX58
 
 #iris data set is built into sc-kit learn due to it's popularity
 from sklearn.datasets import load_iris

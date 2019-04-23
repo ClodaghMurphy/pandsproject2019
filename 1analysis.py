@@ -1,5 +1,5 @@
 #30032019 Investigate the DataSet Clodagh Murphy
-#Joe James "Python: Pandas Tutorial | Intro to DataFrames"
+#Code adapted from Joe James "Python: Pandas Tutorial | Intro to DataFrames"
 #https://www.youtube.com/watch?v=e60ItwlZTKM
 #1. load hardcoded data into a pandas dataframe
 #A dataframe is the primary pandas structure of arranging data
@@ -25,5 +25,5 @@ df =pd.DataFrame(
     [4.9,3.1,1.5,0.1,'Iris-setosa']],
     index = [0,1,2,3,4,5,6,7,8,9],
     columns =['sepal length in cm','sepal width in cm','petal length in cm','petal width in cm','species'])
-
+#The dataframe will be printed, it's similar to an excel table
 print (df)
