@@ -40,14 +40,17 @@ These measurements belong to an Iris-setosa flower collected as part of the expe
    (b) it is an ideal sample to use when learning about data analysis due to it's compact nature (150 lines) and high accuracy, <br>
    (c) Ronald Fisher's original 1936 paper proves that once measurements are available it is possible predict the variety of Iris with a high degree of accuracy- an important tenet of data analysis.<br>
 
-## 3. My investigations into the Iris Data Set - Process and Observations
-i. I read online articles/watched youtube videos on the subject and wrote a summary, see section 2 above.  
-ii. I started a list of references in the README to populate over the course of the project.  
-iii. I downloaded the Data Set (1999 version) and Data Set Description from  http://archive.ics.uci.edu/ml/datasets/Iris  
-iv. I downloaded and saved images of the three types of iris...however they are still very difficult to distinguish visually!  
-v. I read about pandas - the open source python library that provides high level data analysis tools.   
-    It runs on top of numPy - a foundational data structure for many python libraries including matplotlib (see further information below).   
-vi. I used python code to familiarise myself with pandas and how it can be used to investigate the iris dataset.    
+## 3. My investigations into the Iris Data Set - Process and Observations 
+
+i. I made a plan in relation how the project would proceed. The project description had (usefully) set out what is required for a minimum viable project, I would use this as a template.  The most challenging part for me was how to run Python code to investigate the data set. I really didn't know what that would entail or how to apply the scripting I had learned so far, other than plotting a function with matplotlib.  I found youtube tutorials very useful in getting to grips with the new python libraries.  Lots of the online articles mentioned pandas and matplotlib but also sci-kit learn.  I decided to focus on the former two tools and then, if time allowed, dip a little into machine learning.
+ii. I read online articles/watched youtube videos on the subject of the dataset and wrote a summary, see section 2 above.  
+iii. I started a list of references in the README to populate over the course of the project.  
+iv. I downloaded the Data Set (1999 version) and Data Set Description from  http://archive.ics.uci.edu/ml/datasets/Iris I downloaded and saved images of the three types of iris which I thought might help me understand the data set better. It didn't - they are still very difficult to distinguish visually!  
+v.   During lectures, I had been introduced to numpy, pandas and matplotlib.
+I read more about pandas - the open source python library that provides high level data analysis tools.   
+It runs on top of numPy - a foundational data structure for many python libraries including matplotlib (see further information below).<br> 
+vi. I used python code to familiarise myself with pandas and how it can be used to investigate the iris dataset.  
+I used [Joe James youtube tutorial](https://www.youtube.com/watch?v=e60ItwlZTKM) as a key source of information.  He includes a print command at the start of every script which helpfully outputs what that script does, I used this technique where possible on all my scripts in this project.<br>
 vii.I learned that pandas is an efficient tool that displays/arranges the data in a meaningful way usually with just one command. 
 The "dataframe" is the primary pandas structure of arranging data - something like a table in excel. The scripts detailed in the table below returned information such as information about the index, count, mean, standard deviation, minimum, maximum, 25/50/75 percentiles. 
 pandas commands can be used to change the titles of variables and assign new fields.
@@ -66,7 +69,7 @@ ix. Matplotlib is a python library that can create 2D graphs and plots.  I have 
 - the lowermost end of each box is quartile 1, the uppermost represents quartile 3  
 - the second quartile (the median) is the line inside the box.  
 - the circles that appear on the plot for "sepal width in cm" indicate data that is outside the median, unusual recordings compared to the majority of the data  
-- a compact box indicates less variation in the values, as shown in the data relating to iris sepals.  
+- a compact box indicates less variation in the values, as shown in the data relating to iris sepals.  (image below, see point xii)
 I have written scripts that display univariate (single variable) and multivariate (two or more variables) versions of boxplots<br>
 
 x. Histograms represent one variable in a visualisation (different from a bar chart which relates two!).   
@@ -80,7 +83,7 @@ A box plot can provide a lot of these statistics in one image i.e., the boxes ar
 
 ![alt text](https://github.com/ClodaghMurphy/pandsproject2019/blob/master/Multivariate%20Boxplot.png "Multivariate Box Plot")
 
-xiii. [Ben Hamner](https://www.kaggle.com/benhamner/sepal-width-vs-length)  In his graph all 50 setosa flowers can be seen lying distinctly separate, the other 100 flowers merge.  Therefore, he proves with a scatter graph that the setosa species is "linearly separable" from the other two in the data set.    
+xiii. [Ben Hamner](https://www.kaggle.com/benhamner/sepal-width-vs-length) is a founding member of the kaggle website and published an article in 2016 on the Iris Dataset.  In his graph all 50 setosa flowers can be seen lying distinctly separate, the other 100 flowers merge.  Therefore, he proves with a scatter graph that the setosa species is "linearly separable" from the other two in the data set.    
   
 ivx. The standard deviation is a measurement statisticians use for the amount of variability (or spread)   
 among the numbers in a data set. As the term implies, a standard deviation is a standard (or typical) amount of   
@@ -89,15 +92,15 @@ xv. Having first analysed the data set, I attempt to draw some conclusions by pl
 Comparison of "like with like" (i.e. petals with petals) should provide more meaningful results. I used scatterplots to compare petals and then sepals. The plot produced in 21analysis.py illustrates that in terms of petals, setosa species are the smallest, virginica the largest and versicolor roughly in the middle.  For sepals - the widest ones belong to the setosa species, the narrowest to versicolor with virginica in the middle although there is some cross-over between the last two species.  
 ![alt text](https://github.com/ClodaghMurphy/pandsproject2019/blob/master/Scatterplot.png "Scatterplot Plot")
 
-xvi A very brief look at machine learning and scikit-Learn. <br>Machine learning is the technique of using computers to extract knowledge and gain insight into data.  Supervised learning in machine learning attempts to build structures that apply to new data and predict answers, therefore a human may not know what the correct answer is.  I consider that the iris dataset is a great starting point because an absolute beginner can start to see patterns in the data simply by using scatterplots and boxplots (point xv. above), thereby helping to understand the ideas and how machine learning might work when the machine can see patterns a human cannot.  
+xvi A brief look at machine learning and scikit-Learn. <br>Machine learning is the technique of using computers to extract knowledge and gain insight into data.  Supervised learning in machine learning attempts to build structures that apply to new data and predict answers, therefore a human may not know what the correct answer is.  I consider the iris dataset to be a great starting point because an absolute beginner can start to see patterns in the data simply by using scatterplots and boxplots (point xv. above), thereby helping to understand the ideas and how machine learning might work when the machine can see patterns a human cannot.  I found the concept to be a very steep learning curve from the analysis done up to now.  The topic will be explored in greater detail in future modules of this course and I'm looking forward to developing a greater understanding.
 
 - Scikit-Learn is a python library that is used for machine learning and statistical modelling.  
 I learned about some of the terminology used in relation to scikit-learn and machine learning e.g. features and targets.
-The iris dataset is so popular that it is built into scikit-learn.  I found commands to print data, feature names, target and target names. I found the concept to be a very steep learning curve from the analysis done up to now.
+The iris dataset is so popular that it is built into scikit-learn.  I found commands to print data, feature names, target and target names. 
 - k-NN refers to the nearest neighbour algorithm, where observations of data are used to predict a response by learning the relationship
 between the features and targets. The value of k parameter is input by the user, 1 means you want the closest prediction while k=15 indicates results from 1-15 "nearest neighbours" are required.
 To choose 1 may give an inaccurate answer depending on the array, whereas a result of 15 predictions may need further analysis, it all depends on the user's requirements. It's a straighforward algorithm and a good one to use for a small dataset.
-- Analysis23 code copied more or less verbatim from [Msanjayds on github](https://github.com/Msanjayds/Scikit-learn/blob/master/KNN%20on%20Iris%20Datset.ipynb) with explanatory comments by me, illustrates how to predict with the KNN algorithm, then plot the relationship between K and testing accuracy scores. Metrics, train_test_split modules are used.
+- Analysis23 code copied more or less verbatim from [Msanjayds on github](https://github.com/Msanjayds/Scikit-learn/blob/master/KNN%20on%20Iris%20Datset.ipynb) with explanatory comments by me, illustrates how to predict with the KNN algorithm, then plot the relationship between K and testing accuracy scores. Metrics, train_test_split modules are used so it is a super example to provide a taster of what machine learning can involve.
 
 
 
