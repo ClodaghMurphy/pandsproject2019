@@ -224,3 +224,5 @@ How to split your dataset to train and test datasets using SciKit Learn<br>
 https://medium.com/@contactsunny/how-to-split-your-dataset-to-train-and-test-datasets-using-scikit-learn-e7cf6eb5e0d<br>
 why plt.show() shows one extra blank figure<br>
 https://stackoverflow.com/questions/43237079/why-plt-show-shows-one-extra-blank-figure<br>
+matplotlib.pyplot.subplots<br>
+https://matplotlib.org/api/_as_gen/matplotlib.pyplot.subplots.html<br>
