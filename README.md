@@ -52,9 +52,10 @@ iii. I started a list of references in the README to populate over the course of
 
 
 iv. I downloaded the Data Set (1999 version) and Data Set Description from  http://archive.ics.uci.edu/ml/datasets/Iris I downloaded and saved images of the three types of iris which I thought might help me understand the data set better. It didn't - they are still very difficult to distinguish visually!  
+![alt text]( https://github.com/ClodaghMurphy/pandsproject2019/blob/master/iris%20dataset.jpeg)
 
 
-v.   During lectures, I had been introduced to numpy, pandas and matplotlib.
+<br>v.   During lectures, I had been introduced to numpy, pandas and matplotlib.
 I read more about pandas - the open source python library that provides high level data analysis tools.   
 It runs on top of numPy - a foundational data structure for many python libraries including matplotlib (see further information below).<br> 
 
@@ -86,7 +87,7 @@ ix. Matplotlib is a python library that can create 2D graphs and plots.  I have 
 - a compact box indicates less variation in the values, as shown in the box plot directly below relating to iris sepals while the petal length can vary from approx 1,5 cm to 5 cm.
 I have written scripts that display univariate (single variable) and multivariate (two or more variables) versions of boxplots<br>
 ![alt text](https://github.com/ClodaghMurphy/pandsproject2019/blob/master/Univariate%20Boxplot.png)
-x. Histograms represent one variable in a visualisation (different from a bar chart which relates two!).  
+<br>x. Histograms represent one variable in a visualisation (different from a bar chart which relates two!).  
 The height indicates how many flowers are in a particular range.
 Using matplotlib, it is a very simple command to create a histogram and this is the philosophy behind the library - "make easy things easy and hard things possible".  <br>
 ![alt text](https://github.com/ClodaghMurphy/pandsproject2019/blob/master/Histogram.png)
