@@ -14,6 +14,8 @@ df=pd.read_csv(dataset)
 #A scalar value is associated with every point in a space
 #This command will change the existing value to the one specified in the command
 df.loc[87,['sepal length in cm']]=99
+#the loc (location) command accepts up to four parameter
+#iloc means index location
 print (df.iloc[87:89])
 
 #Assign a new field with a specific value to the dataframe called stem height in cm

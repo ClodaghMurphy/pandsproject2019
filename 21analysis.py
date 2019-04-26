@@ -10,9 +10,15 @@ import pandas
 #species identified
 
 dataset = pandas.read_csv('irisdataset.txt')
-plt.figure()
+#plt.figure() this command appeared in the original
+#code but I identified that it was responsible for an error
+#that caused an extra, blank figure to appear.
+#User Suever on stackoverflow advised on a similar query, I applied the solution to this problem with
+#the desired effect.
+#https://stackoverflow.com/questions/43237079/why-plt-show-shows-one-extra-blank-figure
+#Unfortunately the same solution did not work for 20analysis.py
 fig,ax=plt.subplots(1,2,figsize=(21, 10))
-#create datasets that contain data about one particular species
+#create new datasets from the original that contain data about one particular species
 setosa=dataset[dataset['species']=='Iris-setosa']
 versicolor =dataset[dataset['species']=='Iris-versicolor']
 virginica =dataset[dataset['species']=='Iris-virginica']                                                            

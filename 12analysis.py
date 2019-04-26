@@ -11,11 +11,11 @@ filename= 'irisdataset.txt'
 df=pd.read_csv(filename)
 
 #Rename the column called 'species' to 'type of iris'
-#Print out the first five rows
+#Print out the first five rows to demonstrate the change
 df.rename(columns={'species': 'type of iris'}, inplace=True)
 print(df.head())
 
 #This is an easy way to change all the column names at once
-#Print out the first five rows
+#then, print out the first five rows to demonstrate
 df.columns=['L sepal','W sepal','L petal','W petal','flower']
 print(df.head())
