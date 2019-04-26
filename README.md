@@ -52,7 +52,7 @@ iii. I started a list of references in the README to populate over the course of
 
 
 iv. I downloaded the Data Set (1999 version) and Data Set Description from  http://archive.ics.uci.edu/ml/datasets/Iris I downloaded and saved images of the three types of iris which I thought might help me understand the data set better. It didn't - they are still very difficult to distinguish visually!  
-![alt text]( https://github.com/ClodaghMurphy/pandsproject2019/blob/master/iris%20dataset.jpeg)
+![alt text](https://github.com/ClodaghMurphy/pandsproject2019/blob/master/iris%20x3%20images.png)
 
 
 <br>v.   During lectures, I had been introduced to numpy, pandas and matplotlib.
