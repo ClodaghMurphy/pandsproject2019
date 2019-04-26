@@ -222,3 +222,5 @@ KNN (using scikit-learn) on Iris dataset <br>
 https://github.com/Msanjayds/Scikit-learn/blob/master/KNN%20on%20Iris%20Datset.ipynb<br>
 How to split your dataset to train and test datasets using SciKit Learn<br>
 https://medium.com/@contactsunny/how-to-split-your-dataset-to-train-and-test-datasets-using-scikit-learn-e7cf6eb5e0d<br>
+why plt.show() shows one extra blank figure<br>
+https://stackoverflow.com/questions/43237079/why-plt-show-shows-one-extra-blank-figure<br>
