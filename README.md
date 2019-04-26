@@ -83,12 +83,12 @@ ix. Matplotlib is a python library that can create 2D graphs and plots.  I have 
 - the lowermost end of each box is quartile 1, the uppermost represents quartile 3  
 - the second quartile (the median) is the line inside the box.  
 - the circles that appear on the plot for "sepal width in cm" indicate data that is outside the median, unusual recordings compared to the majority of the data  
-- a compact box indicates less variation in the values, as shown in the data relating to iris sepals while the petal lenght can very from approx 1,5 cm to 5 cm.
+- a compact box indicates less variation in the values, as shown in the box plot directly below relating to iris sepals while the petal length can vary from approx 1,5 cm to 5 cm.
 I have written scripts that display univariate (single variable) and multivariate (two or more variables) versions of boxplots<br>
-
+![alt text](https://github.com/ClodaghMurphy/pandsproject2019/blob/master/Univariate%20Boxplot.png)
 x. Histograms represent one variable in a visualisation (different from a bar chart which relates two!).   
 Using matplotlib, it is a very simple command to create a histogram and this is the philosophy behind the library - "make easy things easy and hard things possible".  <br>
-
+![alt text](https://github.com/ClodaghMurphy/pandsproject2019/blob/master/Histogram.png)
 
 xi I used matplotlib to plot a scattermatrix displays all the fields on both x and y axis, so it's a lot of information in one image.  
 The variables are represented in both scatterplots and histograms.  
@@ -199,6 +199,8 @@ Understanding & Comparing Boxplots (Box and Whisker Plots)<br>
 https://www.youtube.com/watch?v=Hm6Mra5XJSs<br>
 Histogram<br>
 https://en.wikipedia.org/wiki/Histogram<br>
+Interpreting Histograms<br>
+https://www.youtube.com/watch?time_continue=50&v=ImU4ftpihf8<br>
 What is a Scatter Plot?<br>
 https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/regression-analysis/scatter-plot-chart/#definition<br>
 Understanding Descriptive Statistics <br>
