@@ -61,7 +61,7 @@ It runs on top of numPy - a foundational data structure for many python librarie
 
 
 vi. I used python code to familiarise myself with pandas and how it can be used to investigate the iris dataset.  
-I used [Joe James youtube tutorial](https://www.youtube.com/watch?v=e60ItwlZTKM) as a key source of information.  He includes a print command at the start of every script which helpfully outputs a description of what that script does, I used this convention in addition to comments where possible on all my scripts in this project.<br>
+I used [Joe James youtube tutorial](https://www.youtube.com/watch?v=e60ItwlZTKM) as a key source of information.  He includes a print command at the start of every script which helpfully outputs a description of what that script does, I used this convention in addition to comments where possible on all my scripts in this project.  Most of the code was copied verbatim from other coders who have been referenced.  In order to ensure I can provide evidence that I am developing new knowledge and skills I used #comments to document that I understand what the code does - it's not simply cut and pasted from another site!  In this regard there was very little troubleshooting involved, however it is documented when there was.  Sometimes I think that experienced coders leave little errors in their scripts to challenge the "noobs"...and that is fair enough.  :beginner:<br>
 
 
 vii.I learned that pandas is an efficient tool that displays/arranges the data in a meaningful way usually with just one command. 
@@ -172,25 +172,21 @@ https://en.wikipedia.org/wiki/Linear_discriminant_analysis<br>
 https://www.analyticsvidhya.com/blog/2018/05/
 24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/<br>
 
-Data School youtube videos
+Data School youtube videos:
 Getting started in scikit-learn with the famous iris dataset<br>
 https://www.youtube.com/watch?v=hd1W4CyPX58<br>
 Training a machine learning model with scikit-learn<br>
 https://www.youtube.com/watch?v=RlQuVL6-qe8<br>
 https://towardsdatascience.com/the-5-basic-statistics-concepts-data-scientists-need-to-know-2c96740377ae<br>
-
 http://archive.ics.uci.edu/ml/datasets/Iris<br>
 http://www.twofrog.com/irissetosa.html<br>
 https://gardengoodsdirect.com/product/iris-versicolor/<br>
 https://www.fs.fed.us/wildflowers/beauty/iris/Blue_Flag/iris_virginica.shtml<br>
-
 Joe James "Python: Pandas Tutorial | Intro to DataFrames"
 https://www.youtube.com/watch?v=e60ItwlZTKM<br>
-
 Basic Analysis of the Iris Data set Using Python
 by Oluwasogo Oluwafemi Ogundowole<br>
 https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342<br>
-
 Definition - What does Scalar mean?<br>
 https://www.techopedia.com/definition/16441/scalar<br>
 Univariate Analysis: Definition, Examples<br>
