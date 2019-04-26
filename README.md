@@ -52,11 +52,10 @@ iii. I started a list of references in the README to populate over the course of
 
 
 iv. I downloaded the Data Set (1999 version) and Data Set Description from  http://archive.ics.uci.edu/ml/datasets/Iris I downloaded and saved images of the three types of iris which I thought might help me understand the data set better. It didn't - they are still very difficult to distinguish visually!  
-![alt text](https://github.com/ClodaghMurphy/pandsproject2019/blob/master/iris_virginica_virginica.jpg)
-![alt_text](https://github.com/ClodaghMurphy/pandsproject2019/blob/master/IrisSetosa.jpg)
-![alt text](https://github.com/ClodaghMurphy/pandsproject2019/blob/master/Iris_versicolor_3.jpg)
+![alt text]( https://github.com/ClodaghMurphy/pandsproject2019/blob/master/iris%20dataset.jpeg)
 
-v.   During lectures, I had been introduced to numpy, pandas and matplotlib.
+
+<br>v.   During lectures, I had been introduced to numpy, pandas and matplotlib.
 I read more about pandas - the open source python library that provides high level data analysis tools.   
 It runs on top of numPy - a foundational data structure for many python libraries including matplotlib (see further information below).<br> 
 
