@@ -86,7 +86,8 @@ ix. Matplotlib is a python library that can create 2D graphs and plots.  I have 
 - a compact box indicates less variation in the values, as shown in the box plot directly below relating to iris sepals while the petal length can vary from approx 1,5 cm to 5 cm.
 I have written scripts that display univariate (single variable) and multivariate (two or more variables) versions of boxplots<br>
 ![alt text](https://github.com/ClodaghMurphy/pandsproject2019/blob/master/Univariate%20Boxplot.png)
-x. Histograms represent one variable in a visualisation (different from a bar chart which relates two!).   
+x. Histograms represent one variable in a visualisation (different from a bar chart which relates two!).  
+The height indicates how many flowers are in a particular range.
 Using matplotlib, it is a very simple command to create a histogram and this is the philosophy behind the library - "make easy things easy and hard things possible".  <br>
 ![alt text](https://github.com/ClodaghMurphy/pandsproject2019/blob/master/Histogram.png)
 
