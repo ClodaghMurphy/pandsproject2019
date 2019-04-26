@@ -24,7 +24,7 @@ Measurements of
 1. sepal length in cm 
 2. sepal width in cm 
 3. petal length in cm 
-4. petal width in cm 
+4. petal width in cm <br>
 were recorded along with the species.<br>
 
 Therefore, the dataset consists of 150 rows and 4 columns.
@@ -36,24 +36,38 @@ Petals are the colourful part of a flower that surround the reproductive element
 These measurements belong to an Iris-setosa flower collected as part of the experiment in 1936.<br>
 
  The Iris Data Set is important because<br>
-   (a) it is considered to be one of the most versatile datasets available in pattern recognition literature. <br>
+   (a) it is considered to be one of the most versatile datasets available in pattern recognition literature, <br>
    (b) it is an ideal sample to use when learning about data analysis due to it's compact nature (150 lines) and high accuracy, <br>
    (c) Ronald Fisher's original 1936 paper proves that once measurements are available it is possible predict the variety of Iris with a high degree of accuracy- an important tenet of data analysis.<br>
 
 ## 3. My investigations into the Iris Data Set - Process and Observations 
 
 i. I made a plan in relation how the project would proceed. The project description had (usefully) set out what is required for a minimum viable project, I would use this as a template.  The most challenging part for me was how to run Python code to investigate the data set. I really didn't know what that would entail or how to apply the scripting I had learned so far, other than plotting a function with matplotlib.  I found youtube tutorials very useful in getting to grips with the new python libraries.  Lots of the online articles mentioned pandas and matplotlib but also sci-kit learn.  I decided to focus on the former two tools and then, if time allowed, dip a little into machine learning.
+
+
 ii. I read online articles/watched youtube videos on the subject of the dataset and wrote a summary, see section 2 above.  
+
+
 iii. I started a list of references in the README to populate over the course of the project.  
+
+
 iv. I downloaded the Data Set (1999 version) and Data Set Description from  http://archive.ics.uci.edu/ml/datasets/Iris I downloaded and saved images of the three types of iris which I thought might help me understand the data set better. It didn't - they are still very difficult to distinguish visually!  
+
+
 v.   During lectures, I had been introduced to numpy, pandas and matplotlib.
 I read more about pandas - the open source python library that provides high level data analysis tools.   
 It runs on top of numPy - a foundational data structure for many python libraries including matplotlib (see further information below).<br> 
+
+
 vi. I used python code to familiarise myself with pandas and how it can be used to investigate the iris dataset.  
-I used [Joe James youtube tutorial](https://www.youtube.com/watch?v=e60ItwlZTKM) as a key source of information.  He includes a print command at the start of every script which helpfully outputs what that script does, I used this convention in addition to comments where possible on all my scripts in this project.<br>
+I used [Joe James youtube tutorial](https://www.youtube.com/watch?v=e60ItwlZTKM) as a key source of information.  He includes a print command at the start of every script which helpfully outputs a description of what that script does, I used this convention in addition to comments where possible on all my scripts in this project.<br>
+
+
 vii.I learned that pandas is an efficient tool that displays/arranges the data in a meaningful way usually with just one command. 
 The "dataframe" is the primary pandas structure of arranging data - something like a table in excel. The scripts detailed in the table below returned information such as information about the index, count, mean, standard deviation, minimum, maximum, 25/50/75 percentiles. 
-pandas commands can be used to change the titles of variables and assign new fields.
+Pandas commands can also be used to change the titles of variables and assign new fields.
+
+
 viii.The df.dtypes command returned the numerical data as being "float64" data type, this is how  
 pandas refers to floating point numbers.  The species of flower was classified as an object.  
 
@@ -69,14 +83,18 @@ ix. Matplotlib is a python library that can create 2D graphs and plots.  I have 
 - the lowermost end of each box is quartile 1, the uppermost represents quartile 3  
 - the second quartile (the median) is the line inside the box.  
 - the circles that appear on the plot for "sepal width in cm" indicate data that is outside the median, unusual recordings compared to the majority of the data  
-- a compact box indicates less variation in the values, as shown in the data relating to iris sepals.  (image below, see point xii)
+- a compact box indicates less variation in the values, as shown in the data relating to iris sepals while the petal lenght can very from approx 1,5 cm to 5 cm.
 I have written scripts that display univariate (single variable) and multivariate (two or more variables) versions of boxplots<br>
 
 x. Histograms represent one variable in a visualisation (different from a bar chart which relates two!).   
 Using matplotlib, it is a very simple command to create a histogram and this is the philosophy behind the library - "make easy things easy and hard things possible".  <br>
+
+
 xi I used matplotlib to plot a scattermatrix displays all the fields on both x and y axis, so it's a lot of information in one image.  
 The variables are represented in both scatterplots and histograms.  
 A scattermatrix provides an overview that shows connections between the data and is used to identify structured relationships between types of data.
+
+
 xii. The analysis I have detailed so far is considered to be exploring the data using "descriptive statistics", it's a starting point to help understand 
 the data by summarising what you have (as opposed to making predictions or inferential statistics).<br>Important statistics to set out are what is normal (central) and what is at the outermost ranges (variability, spread, deviation).  
 A box plot can provide a lot of these statistics in one image i.e., the boxes are what is central while the outlier circles represent the deviations.  
@@ -88,6 +106,8 @@ xiii. [Ben Hamner](https://www.kaggle.com/benhamner/sepal-width-vs-length) is a 
 ivx. The standard deviation is a measurement statisticians use for the amount of variability (or spread)   
 among the numbers in a data set. As the term implies, a standard deviation is a standard (or typical) amount of   
 deviation (or distance) from the average (or mean, as it is usually referred to by statisticians).  
+
+
 xv. Having first analysed the data set, I attempt to draw some conclusions by plotting scatterplots and interpreting them.  
 Comparison of "like with like" (i.e. petals with petals) should provide more meaningful results. I used scatterplots to compare petals and then sepals. The plot produced in 21analysis.py illustrates that in terms of petals, setosa species are the smallest, virginica the largest and versicolor roughly in the middle.  For sepals - the widest ones belong to the setosa species, the narrowest to versicolor with virginica in the middle although there is some cross-over between the last two species.  
 ![alt text](https://github.com/ClodaghMurphy/pandsproject2019/blob/master/Scatterplot.png "Scatterplot Plot")
